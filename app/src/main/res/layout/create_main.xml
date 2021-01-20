@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:background="@drawable/background_final">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tube"
+        android:scaleType="fitCenter"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:backgroundTint="#ff9e22"
+        android:id="@+id/TubeButton"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+
+    <Button
+        android:id="@+id/CharackterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TubeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:backgroundTint="#ff9e22"
+        android:scaleType="fitCenter"
+        android:text="Charackter"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background"
+        android:id="@+id/BackgroundButton"
+        android:scaleType="fitCenter"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:backgroundTint="#ff9e22"
+        android:layout_below="@id/CharackterButton"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default Tube"
+        android:scaleType="fitCenter"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ff9e22"
+        android:id="@+id/DefaultTubeButton"
+        android:layout_below="@id/CharackterButton"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default Bird"
+        android:scaleType="fitCenter"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ff9e22"
+        android:id="@+id/DefaultCharackterButton"
+        android:layout_below="@id/DefaultTubeButton"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/DefaultBackgroundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:text="Background"
+        android:backgroundTint="#ff9e22"
+        android:layout_below="@id/DefaultCharackterButton"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/BackButtonCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:text="Back"
+        android:layout_below="@id/DefaultBackgroundButton"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>
